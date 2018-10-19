@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title>JCDECO</title>
+  <meta charset="utf-8">
+  <style>
+    html, body {
+      height: auto;
+      margin: 0;
+      padding: 0;
+      overflow: visible !important;
+    }
+    html {
+    }
+    canvas {
+      /* zoom: 30%; */
+      transform-origin: 0 0;
+      transform: scale(.3);
+      border: 3px solid #27c475;
+    }
+    .color {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: #FF0000;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <div>Ceci est une version de travail pour le projet "JC refait la déco". Il est en taille réduite, et peut ne pas fonctionner sur tous les navigateurs</div>
+    <button id="pause">Pause</button>
+    <button id="random">Changer la couleur</button>
+  </div>
+  <script src="build/project.bundle.js" charset="utf-8"></script>
+</body>
+</html>
